@@ -195,6 +195,7 @@
             "stroke-miterlimit": 0,
             "stroke-opacity": 1,
             "stroke-width": 1,
+            "shape-rendering":"crispEdges",
             target: "_blank",
             "text-anchor": "middle",
             title: "Raphael",
