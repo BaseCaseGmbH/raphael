@@ -1,12 +1,12 @@
-// ┌─────────────────────────────────────────────────────────────────────┐ \\
-// │ Raphaël - JavaScript Vector Library                                 │ \\
-// ├─────────────────────────────────────────────────────────────────────┤ \\
-// │ VML Module                                                          │ \\
-// ├─────────────────────────────────────────────────────────────────────┤ \\
-// │ Copyright (c) 2008-2011 Dmitry Baranovskiy (http://raphaeljs.com)   │ \\
-// │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ \\
-// │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ \\
-// └─────────────────────────────────────────────────────────────────────┘ \\
+// ┌─────────────────────────────────────────────────────────────────────┐ 
+// │ Raphaël - JavaScript Vector Library                                 │ 
+// ├─────────────────────────────────────────────────────────────────────┤ 
+// │ VML Module                                                          │ 
+// ├─────────────────────────────────────────────────────────────────────┤ 
+// │ Copyright (c) 2008-2011 Dmitry Baranovskiy (http://raphaeljs.com)   │ 
+// │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ 
+// │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ 
+// └─────────────────────────────────────────────────────────────────────┘ 
 window.Raphael.vml && function (R) {
     var has = "hasOwnProperty",
         Str = String,

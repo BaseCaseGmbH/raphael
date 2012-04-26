@@ -1,12 +1,3 @@
-// ┌────────────────────────────────────────────────────────────────────┐ \\
-// │ Raphaël 2.1.0 - JavaScript Vector Library                          │ \\
-// ├────────────────────────────────────────────────────────────────────┤ \\
-// │ Copyright © 2008-2012 Dmitry Baranovskiy (http://raphaeljs.com)    │ \\
-// │ Copyright © 2008-2012 Sencha Labs (http://sencha.com)              │ \\
-// ├────────────────────────────────────────────────────────────────────┤ \\
-// │ Licensed under the MIT (http://raphaeljs.com/license.html) license.│ \\
-// └────────────────────────────────────────────────────────────────────┘ \\
-
 // ┌──────────────────────────────────────────────────────────────────────────────────────┐ \\
 // │ Eve 0.3.4 - JavaScript Events Library                                                │ \\
 // ├──────────────────────────────────────────────────────────────────────────────────────┤ \\
@@ -152,8 +143,7 @@
         return current_event;
     };
     
-    
-    eve.off = eve.unbind = function (name, f) {
+    eve.unbind = function (name, f) {
         var names = name.split(separator),
             e,
             key,
@@ -223,13 +213,13 @@
 })(this);
 
 
-// ┌─────────────────────────────────────────────────────────────────────┐ \\
-// │ "Raphaël 2.1.0" - JavaScript Vector Library                         │ \\
-// ├─────────────────────────────────────────────────────────────────────┤ \\
-// │ Copyright (c) 2008-2011 Dmitry Baranovskiy (http://raphaeljs.com)   │ \\
-// │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ \\
-// │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ \\
-// └─────────────────────────────────────────────────────────────────────┘ \\
+// ┌─────────────────────────────────────────────────────────────────────┐ 
+// │ "Raphaël 2.1.0" - JavaScript Vector Library                         │ 
+// ├─────────────────────────────────────────────────────────────────────┤ 
+// │ Copyright (c) 2008-2011 Dmitry Baranovskiy (http://raphaeljs.com)   │ 
+// │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ 
+// │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ 
+// └─────────────────────────────────────────────────────────────────────┘ 
 (function () {
     
     function R(first) {
@@ -4840,15 +4830,15 @@ window.Raphael.svg && function (R) {
     }
 }(window.Raphael);
 
-// ┌─────────────────────────────────────────────────────────────────────┐ \\
-// │ Raphaël - JavaScript Vector Library                                 │ \\
-// ├─────────────────────────────────────────────────────────────────────┤ \\
-// │ VML Module                                                          │ \\
-// ├─────────────────────────────────────────────────────────────────────┤ \\
-// │ Copyright (c) 2008-2011 Dmitry Baranovskiy (http://raphaeljs.com)   │ \\
-// │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ \\
-// │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ \\
-// └─────────────────────────────────────────────────────────────────────┘ \\
+// ┌─────────────────────────────────────────────────────────────────────┐ 
+// │ Raphaël - JavaScript Vector Library                                 │ 
+// ├─────────────────────────────────────────────────────────────────────┤ 
+// │ VML Module                                                          │ 
+// ├─────────────────────────────────────────────────────────────────────┤ 
+// │ Copyright (c) 2008-2011 Dmitry Baranovskiy (http://raphaeljs.com)   │ 
+// │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ 
+// │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ 
+// └─────────────────────────────────────────────────────────────────────┘ 
 window.Raphael.vml && function (R) {
     var has = "hasOwnProperty",
         Str = String,
