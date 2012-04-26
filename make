@@ -8,7 +8,7 @@ var setup = {
             eve:  "eve/eve.js"
         },
         output: {
-            "raphael.js": function () {
+            "raphael-bci.js": function () {
                 return this.eve + "\n\n" + this.core + "\n\n" + this.svg + "\n\n" + this.vml;
             }
         }
