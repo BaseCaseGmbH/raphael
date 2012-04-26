@@ -924,7 +924,7 @@ window.Raphael.vml && function (R) {
         res.coordsize = zoom * 1e3 + S + zoom * 1e3;
         res.coordorigin = "0 0";
         res.span = R._g.doc.createElement("span");
-        res.span.style.cssText = "position:absolute;left:-9999em;top:-9999em;padding:0;margin:0;line-height:1;";
+        res.span.style.cssText = "position:absolute;left:-9999em;top:-9999em;padding:0;margin:0;line-height:1;white-space:nowrap;";
         c.appendChild(res.span);
         cs.cssText = R.format("top:0;left:0;width:{0};height:{1};display:inline-block;position:relative;clip:rect(0 {0} {1} 0);overflow:hidden", width, height);
         if (container == 1) {
@@ -946,7 +946,7 @@ window.Raphael.vml && function (R) {
         R.eve("raphael.clear", this);
         this.canvas.innerHTML = E;
         this.span = R._g.doc.createElement("span");
-        this.span.style.cssText = "position:absolute;left:-9999em;top:-9999em;padding:0;margin:0;line-height:1;display:inline;";
+        this.span.style.cssText = "position:absolute;left:-9999em;top:-9999em;padding:0;margin:0;line-height:1;display:inline;white-space:nowrap;";
         this.canvas.appendChild(this.span);
         this.bottom = this.top = null;
     };
